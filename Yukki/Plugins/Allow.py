@@ -1,8 +1,8 @@
-from Music import app, SUDOERS
+from Yukki import app, SUDOERS
 from pyrogram import filters, Client
 from pyrogram.types import Message
-from Music.MusicUtilities.helpers.filters import command
-from Music.MusicUtilities.database.chats import (get_served_chats, is_served_chat, add_served_chat, get_served_chats, remove_served_chat)  
+from Yukki.MusicUtilities.helpers.filters import command
+from Yukki.MusicUtilities.database.chats import (get_served_chats, is_served_chat, add_served_chat, get_served_chats, remove_served_chat)  
 
 @app.on_message(filters.command("allow") & filters.user(SUDOERS))
 async def blacklist_chat_func(_, message: Message):
