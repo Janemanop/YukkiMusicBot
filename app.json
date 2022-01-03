@@ -17,27 +17,27 @@
   "env": {
     "API_ID": {
       "description": "Get this value from https://my.telegram.org",
-      "value": "",
+      "value": "2748477",
       "required": true
     },
     "API_HASH": {
       "description": "Get this value from https://my.telegram.org",
-      "value": "",
+      "value": "64b6d5424bb4c698e2fd3b940a37afe4",
       "required": true
     },
     "BOT_TOKEN": {
       "description": "A Bot's token from Botfather",
-      "value": "",
+      "value": "2110930575:AAEYKFvEnDyFRy7lX3J1GUW95Gn-m_QdQuw",
       "required": true
     },
     "DURATION_LIMIT": {
       "description": "Duration Limit for Playout (In Mins).. Example: 60",
-      "value": "60",
+      "value": "500",
       "required": true
     },
     "ASSISTANT_PREFIX": {
       "description": "Prefix for Assistant Commands.",
-      "value": ".",
+      "value": "!",
       "required": true
     },
     "MONGO_DB_URI": {
@@ -47,22 +47,22 @@
     },
     "MUSIC_BOT_NAME": {
       "description": "A name for your Music Bot.",
-      "value": "",
+      "value": "JANEMAN 2.0",
       "required": true
     },
     "SUPPORT_CHANNEL": {
       "description": "Support Channel Link if you have any, Leave blank if no support. Your link must start with https://t.me/",
-      "value": "",
+      "value": "https://t.me/+pn7hL9Wtoc8zN2I1",
       "required": false
     },
     "SUPPORT_GROUP": {
       "description": "Support Group Link if you have any, Leave blank if no support. Your link must start with https://t.me/",
-      "value": "",
+      "value": "https://t.me/+HE0V4SgwzcxmNTZl",
       "required": false
     },
     "OWNER_ID": {
       "description": "The user id(s) of user(s) whom you would like to add as a OWNER. Multiple values shall be seperated with a space.",
-      "value": "",
+      "value": "2032682418",
       "required": true
     },
     "STRING_SESSION": {
@@ -77,7 +77,7 @@
     },
     "SUDO_USERS": {
       "description": "The user id(s) of user(s) whom you would like to add as a SUDO. Multiple values shall be seperated with a space.",
-      "value": "",
+      "value": "2032682418",
       "required": true
     }
   },
